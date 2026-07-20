@@ -17,12 +17,12 @@ OutPace HQ is a comprehensive event management and marketing automation backend.
 Slack / WhatsApp / Web 
          │  
          ▼
-    main.py (FastAPI) ────────► Supabase (Database)
+    backend/core/main.py (FastAPI) ────────► Supabase (Database)
          │
-         ├──► slack_bot.py / concierge_bot.py
-         ├──► luma_bot.py (Browser Automation)
-         ├──► publishers.py (Social Media & Email APIs)
-         └──► rag-backend/ (FAISS + Anthropic Claude)
+         ├──► backend/core/slack_bot.py / concierge_bot.py
+         ├──► backend/core/luma_bot.py (Browser Automation)
+         ├──► backend/core/publishers.py (Social Media & Email APIs)
+         └──► backend/rag/ (FAISS + Anthropic Claude)
 ```
 
 ## Getting Started
@@ -43,6 +43,7 @@ Slack / WhatsApp / Web
 
 2. **Set up a virtual environment and install dependencies:**
    ```bash
+   cd backend/core
    python -m venv venv
    source venv/bin/activate
    pip install -r requirements.txt
@@ -55,18 +56,19 @@ Slack / WhatsApp / Web
    ```
 
 4. **Initialize Database:**
-   Run the SQL provided in `supabase_schema.sql` in your Supabase SQL Editor to set up the necessary tables and RLS policies.
+   Run the SQL provided in `backend/supabase_schema.sql` in your Supabase SQL Editor to set up the necessary tables and RLS policies.
 
 ### Running the Services
 
 1. **Run the main FastAPI backend:**
    ```bash
+   cd backend/core
    python -m uvicorn main:app --host 127.0.0.1 --port 8000
    ```
 
 2. **Run the RAG backend (required for answering queries):**
    ```bash
-   cd rag-backend
+   cd backend/rag
    bash run.sh
    ```
 
@@ -78,6 +80,7 @@ See the detailed [Slack Integration Guide](README_SLACK.md) for configuring the 
 ### Luma Automation
 Before creating events via the Luma integration, log in and save your session locally:
 ```bash
+cd backend/core
 python luma_bot.py --login
 ```
 This saves the session to `.luma_session.json` which is used for headless event creation.

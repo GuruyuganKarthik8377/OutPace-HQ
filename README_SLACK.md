@@ -38,7 +38,7 @@ Under **Basic Information → App Credentials**, copy the **Signing Secret**.
 
 ## 2. Configure environment variables
 
-Add to `.env` in the project root:
+Add to `.env` in `backend/core/`:
 
 ```
 SLACK_BOT_TOKEN=xoxb-your-bot-token-here
@@ -81,10 +81,11 @@ Make sure both services are running:
 
 ```bash
 # Event backend (port 8000)
+cd backend/core
 python3 -m uvicorn main:app --host 127.0.0.1 --port 8000
 
 # RAG backend (port 8001) — required for /ask-event
-cd rag-backend && bash run.sh
+cd ../rag && bash run.sh
 ```
 
 The Slack endpoint is mounted automatically at startup if `SLACK_BOT_TOKEN` and `SLACK_SIGNING_SECRET` are set. You'll see:
@@ -112,6 +113,7 @@ Each command ACKs within 3 seconds (Slack's hard limit) then sends the real answ
 Before creating events from the Luma Copilot tab, save a browser session:
 
 ```bash
+cd backend/core
 python3 luma_bot.py --login
 ```
 
@@ -128,9 +130,9 @@ Slack workspace
 /slack/events  (FastAPI, main.py)
       │
       ▼
-slack/bot.py   → AsyncApp (slack_bolt)
-slack/commands.py → registers /ask-event, /generate-marketing, /regenerate
-slack/handlers.py → calls existing endpoints:
+backend/core/slack/bot.py   → AsyncApp (slack_bolt)
+backend/core/slack/commands.py → registers /ask-event, /generate-marketing, /regenerate
+backend/core/slack/handlers.py → calls existing endpoints:
       │
       ├── POST http://127.0.0.1:8001/answer        (RAG — FAISS + Claude)
       └── POST http://127.0.0.1:8000/events/{id}/marketing  (Event backend)
