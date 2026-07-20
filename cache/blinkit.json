@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Funding",
+      "data": "Blinkit (Zomato-owned) is CLSA-rated as best positioned for profitability in India's quick commerce space (Jun 2026). Competitor Zepto raised $665M and is IPO-bound, using capital to launch 'Select' premium grocery tier directly targeting Blinkit Gourmet."
+    },
+    {
+      "id": "2",
+      "label": "People",
+      "data": "No direct hiring signals found. Inferred: Blinkit is expanding geographically into J&K, suggesting operational and logistics hiring in new markets. Zepto's IPO prep and 'Select' launch likely pulling premium grocery/retail talent from same pool."
+    },
+    {
+      "id": "3",
+      "label": "Product",
+      "data": "Blinkit is pushing premium grocery via 'Blinkit Gourmet' (truffle oil, specialty items) and expanding to J&K. Also experimenting with AI/MCP integrations (Blinkit MCP for Claude to order groceries). Brand risk: viral 'fake paneer' and 'confidential photos' delivery incidents creating consumer trust issues."
+    },
+    {
+      "id": "4",
+      "label": "Threat",
+      "data": "Zepto's well-funded 'Select' premium tier directly challenges Blinkit Gourmet \u2014 the segment Blinkit is betting on for margin expansion. Zepto's IPO war chest ($665M) enables aggressive pricing and marketing in premium. Simultaneously, Blinkit faces local backlash (J&K small retailers) and product authenticity scandals damaging brand equity."
+    },
+    {
+      "id": "5",
+      "label": "Your Move",
+      "data": "Position your solution against Blinkit's growing operational and brand vulnerabilities: counterfeiting/authenticity gap, geographic expansion complexity, and premium segment pressure from Zepto. If selling to Blinkit, lead with supply chain integrity tools. If competing against them, target their weakening brand trust and J&K/tier-2 expansion friction."
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "4",
+      "target": "5"
+    }
+  ],
+  "threatLevel": "MEDIUM",
+  "threatBrief": "Blinkit is the current profitability leader in India's quick commerce space but faces a credible premium-segment challenge from Zepto, which is IPO-bound and flush with $665M in funding to launch a direct Blinkit Gourmet rival. Simultaneously, Blinkit is managing brand trust issues from viral product authenticity incidents and geographic expansion backlash in J&K. The threat is real but not existential \u2014 Blinkit's Zomato backing and CLSA endorsement provide structural resilience.",
+  "gtmMoves": [
+    "Target Blinkit's premium grocery ('Gourmet') supply chain with authenticity/provenance verification tools \u2014 the fake paneer incident signals a real vendor quality control gap that is now a public liability.",
+    "Engage Blinkit's J&K and tier-2 expansion teams with last-mile logistics or local vendor onboarding solutions, as rapid geographic scaling creates operational complexity they need to solve fast.",
+    "Use Zepto's 'Select' launch as a competitive wedge in Blinkit sales conversations \u2014 position your solution as helping Blinkit defend premium margin share before Zepto's IPO capital fully deploys into the segment."
+  ]
+}

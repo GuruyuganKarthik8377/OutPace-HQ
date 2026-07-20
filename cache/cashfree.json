@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Funding",
+      "data": "Cashfree hit $105M in FY26 revenue (reported May 2026), backed by SBI. No new funding round announced in 2026 per Tracxn data, suggesting organic growth or pre-existing capital deployment into cross-border and bill payments expansion."
+    },
+    {
+      "id": "2",
+      "label": "People",
+      "data": "Sameer Gandhi appointed CFO in April 2026, signaling financial discipline and likely IPO or institutional fundraise preparation. Leadership upgrade at CFO level typically precedes major capital events."
+    },
+    {
+      "id": "3",
+      "label": "Product",
+      "data": "Three major product thrusts in 2026: (1) Cross-Border Suite live across 40 countries targeting travel and investment payments, (2) In-chat payments extension for AI apps (Feb 2026), (3) One Click Checkout for D2C conversion optimization. Also expanding role in India's BBPS bill payments network."
+    },
+    {
+      "id": "4",
+      "label": "Threat",
+      "data": "Cashfree is rapidly moving from domestic Indian payments to global corridors (40 countries), AI-native payment infrastructure, and D2C checkout optimization \u2014 directly threatening players in cross-border payments, embedded finance, and checkout conversion tools like Razorpay, PayU, and global entrants like Stripe India."
+    },
+    {
+      "id": "5",
+      "label": "Your Move",
+      "data": "Compete aggressively on cross-border pricing and corridor depth before Cashfree's 40-country suite matures. Target Cashfree's D2C merchant base with superior checkout analytics and conversion guarantees. Position against AI-chat payment limitations in Cashfree's early-stage MCP integration."
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "4",
+      "target": "5"
+    }
+  ],
+  "threatLevel": "HIGH",
+  "threatBrief": "Cashfree Payments is executing a multi-front expansion in 2026 \u2014 crossing $105M revenue, launching a 40-country cross-border suite, embedding payments into AI apps, and strengthening D2C checkout conversion. With SBI backing, a new CFO signaling institutional readiness, and aggressive product launches, Cashfree is transitioning from a domestic Indian payments player to a full-stack global fintech threat. Any competitor in Indian cross-border payments, embedded finance, or D2C checkout faces direct and growing pressure.",
+  "gtmMoves": [
+    "Launch a targeted campaign against Cashfree's 40-country cross-border suite by emphasizing deeper FX rates, compliance coverage, and local settlement speed in key corridors like US-India, UAE-India \u2014 markets Cashfree is prioritizing for travel and investment payments.",
+    "Win D2C merchants currently using Cashfree's One Click Checkout by offering bundled checkout analytics, A/B testing, and post-purchase upsell tools that Cashfree's point solution lacks \u2014 target Shopify and WooCommerce merchants in India.",
+    "Counter Cashfree's AI in-chat payments play by partnering with major AI app platforms (WhatsApp Business, Siri Shortcuts, ChatGPT plugins) ahead of Cashfree's MCP integration scaling, establishing first-mover embedded payment relationships in AI-native commerce."
+  ]
+}

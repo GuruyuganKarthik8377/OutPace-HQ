@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+python-dotenv
+python-multipart
+playwright
+slack_bolt
+aiohttp

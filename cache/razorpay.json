@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "1", "label": "Funding", "data": "Razorpay raised $375M in a Series F round in Dec 2021 led by GIC and Sequoia Capital India, reaching a $7.5B valuation. No new public rounds since; reports suggest a domicile shift from the US back to India ahead of a potential IPO."},
+    {"id": "2", "label": "People", "data": "Actively hiring across payments infrastructure, enterprise sales, and banking-as-a-service teams in Bangalore and Mumbai, signaling continued push into neobanking (Razorpay X) and enterprise accounts."},
+    {"id": "3", "label": "Product", "data": "Core payment gateway plus expansion into Razorpay X (business banking), Razorpay Capital (lending), and Razorpay POS, pushing beyond payments into full-stack SME financial infrastructure."},
+    {"id": "4", "label": "Threat", "data": "Aggressive horizontal expansion into banking, payroll, and lending puts Razorpay in direct competition with adjacent fintech and neobanking players, not just payment processors."},
+    {"id": "5", "label": "Your Move", "data": "Differentiate on developer experience and integration speed, and pursue enterprise partnerships now before Razorpay X captures the SME banking relationship first."}
+  ],
+  "edges": [
+    {"source": "1", "target": "4"},
+    {"source": "2", "target": "3"},
+    {"source": "3", "target": "4"},
+    {"source": "4", "target": "5"}
+  ],
+  "threatLevel": "HIGH",
+  "threatBrief": "Razorpay is well-capitalized and rapidly expanding beyond payments into banking, lending, and payroll, increasing competitive overlap across the SME fintech stack. Sustained enterprise and infrastructure hiring signals aggressive growth continuing over the next 2-3 quarters.",
+  "gtmMoves": [
+    "Accelerate enterprise sales motion before Razorpay X captures the primary banking relationship",
+    "Double down on developer experience and API simplicity as a core differentiator",
+    "Explore bundling or partnership plays to defend the SME segment from full-stack lock-in"
+  ]
+}

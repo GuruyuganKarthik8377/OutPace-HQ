@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Funding",
+      "data": "Swiggy went public in India's largest global tech IPO of 2024, providing significant capital for expansion. Shares rose 5% recently on bullish market sentiment following new growth strategies, signaling strong investor confidence in its quick-commerce pivot."
+    },
+    {
+      "id": "2",
+      "label": "People",
+      "data": "Swiggy previously cut ~1,000 jobs indicating cost rationalization pressure. Community sentiment shows internal strain \u2014 a 'Quitting Swiggy as a Sales guy' post and delivery workers threatening strikes over new policies suggest workforce morale and retention issues."
+    },
+    {
+      "id": "3",
+      "label": "Product",
+      "data": "Instamart is aggressively expanding quick-commerce scope beyond groceries: piloting LPG cylinder delivery in Bengaluru via HPCL partnership \u2014 a first for India's q-commerce sector. Also building internal AI capabilities including Hermes (Text-to-SQL) and generative AI tooling."
+    },
+    {
+      "id": "4",
+      "label": "Threat",
+      "data": "Swiggy faces a two-front regulatory and reputational risk: FSSAI issued food safety notices for allegedly delivering spoiled/expired products via Instamart, and antitrust body found both Swiggy and Zomato breached competition laws. High-profile cancellation fee controversy (Mahua Moitra case) is generating negative press and consumer trust erosion."
+    },
+    {
+      "id": "5",
+      "label": "Your Move",
+      "data": "Target Swiggy's enterprise and B2B food/delivery clients with trust and compliance messaging, positioning your platform as regulatory-compliant and reliable. Attack their mid-market quick-commerce partners who may be wary of FSSAI and antitrust exposure."
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "4",
+      "target": "5"
+    }
+  ],
+  "threatLevel": "MEDIUM",
+  "threatBrief": "Swiggy is aggressively expanding its Instamart quick-commerce vertical into new categories like LPG delivery, backed by post-IPO capital and bullish investor sentiment. However, simultaneous FSSAI regulatory notices for expired food delivery, antitrust violations, internal workforce unrest, and high-profile consumer complaints create meaningful vulnerability windows. The threat is significant in quick-commerce and food delivery verticals but constrained by compounding operational and regulatory headwinds.",
+  "gtmMoves": [
+    "Launch a targeted campaign toward Swiggy's restaurant and FMCG brand partners highlighting your platform's food safety compliance and regulatory track record \u2014 directly contrasting FSSAI notices against Swiggy Instamart.",
+    "Recruit Swiggy's disgruntled sales and ops talent (signaled by community posts) to accelerate your own market penetration with team members who have direct competitive institutional knowledge.",
+    "Pitch quick-commerce category expansion partners (especially utility/essential goods players like HPCL competitors) on partnering with your platform before Swiggy locks in exclusive arrangements in other cities beyond Bengaluru."
+  ]
+}

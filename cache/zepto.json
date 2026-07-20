@@ -1,0 +1,22 @@
+{
+  "nodes": [
+    {"id": "1", "label": "Funding", "data": "Zepto raised $340M in a Series F round in Nov 2024 led by Motilal Oswal and General Catalyst, pushing its valuation to roughly $5B, with prior backers including Nexus Venture Partners and Y Combinator."},
+    {"id": "2", "label": "People", "data": "Rapidly scaling operations and category-management teams as dark-store count expands past 700+ locations across major Indian metros, with continued leadership hiring in supply chain and category expansion."},
+    {"id": "3", "label": "Product", "data": "10-minute grocery delivery via a dark-store network, expanding into Zepto Cafe (quick-commerce food and beverage) and private-label grocery brands to improve margins."},
+    {"id": "4", "label": "Threat", "data": "Heavy capital backing and rapid dark-store expansion are compressing delivery-time expectations market-wide, pressuring competitors to match speed and density or lose share in metro markets."},
+    {"id": "5", "label": "Your Move", "data": "Focus on dark-store density in defensible metro pockets and lean into private-label margin capture rather than competing purely on delivery speed."}
+  ],
+  "edges": [
+    {"source": "1", "target": "4"},
+    {"source": "2", "target": "3"},
+    {"source": "3", "target": "4"},
+    {"source": "4", "target": "5"}
+  ],
+  "threatLevel": "HIGH",
+  "threatBrief": "Zepto is aggressively capitalized and expanding dark-store density and category breadth, raising the bar on delivery speed across the quick-commerce market. Its move into private-label and adjacent categories (Cafe) signals an effort to improve unit economics while maintaining growth pace.",
+  "gtmMoves": [
+    "Prioritize dark-store density in high-defensibility metro pockets rather than broad national coverage",
+    "Accelerate private-label rollout to protect margins against Zepto's cost pressure",
+    "Differentiate on curated assortment or service quality rather than competing head-on for delivery speed"
+  ]
+}

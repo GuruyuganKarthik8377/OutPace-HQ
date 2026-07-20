@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Funding",
+      "data": "Meesho completed a US$604 million IPO in December 2025 (advised by Latham & Watkins). Post-IPO, Citi issued a Buy rating with 22% upside in June 2026, and BofA flagged Meesho as one of the biggest winners from AI-driven re-rating of new-age tech stocks in July 2026. Previously raised $275M and $300M from SoftBank pre-IPO."
+    },
+    {
+      "id": "2",
+      "label": "People",
+      "data": "CHRO Ashish Kumar Singh resigned in June 2026 after nearly six years, signaling potential leadership instability in HR/people operations at a critical post-IPO scaling phase. No replacement announced yet (inferred)."
+    },
+    {
+      "id": "3",
+      "label": "Product",
+      "data": "Meesho acquired B2B commerce platform Kirana Club for \u20b9202 crore (June-July 2026), expanding into B2B grocery/kirana supply chain. AI is cutting customer call costs by 75%. One in five orders is now a combo/bundle purchase, indicating a shift toward solution-based selling among Bharat (Tier 2/3) shoppers. Rebuilt real-time analytics platform for operational scale."
+    },
+    {
+      "id": "4",
+      "label": "Threat",
+      "data": "Meesho faces a $163M tax demand (March 2026) that caused share price plunge, ongoing quarterly losses spiking due to heavy marketing spend (Jan 2026), and ghost order integrity issues flagged by community. The Kirana Club acquisition signals a direct move into B2B commerce, threatening incumbents like Udaan, Jumbotail, and indirectly Amazon/Flipkart in Tier 2/3 markets."
+    },
+    {
+      "id": "5",
+      "label": "Your Move",
+      "data": "Competitors should aggressively target Meesho's supplier and kirana network during the integration disruption window post-Kirana Club acquisition. Exploit CHRO vacancy to recruit Meesho talent. Counter Meesho's combo-purchase trend by launching bundled SKU offerings for Tier 2/3 markets before Meesho solidifies the behavior."
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "4",
+      "target": "5"
+    }
+  ],
+  "threatLevel": "HIGH",
+  "threatBrief": "Meesho is a freshly-public, well-capitalized e-commerce platform with 150M+ users aggressively expanding into B2B kirana commerce via the Kirana Club acquisition while deploying AI to dramatically reduce operational costs. It is consolidating Bharat (Tier 2/3 India) demand through combo/solution-based purchasing behavior, positioning it as a full-stack commerce threat to both B2C and B2B incumbents. Despite tax headwinds and rising losses from marketing spend, strong institutional buy ratings and AI tailwinds suggest accelerating competitive pressure in 2026-2027.",
+  "gtmMoves": [
+    "Target Meesho's kirana/supplier base with competitive onboarding incentives during the 90-day Kirana Club integration window when partner relationships are most vulnerable to churn.",
+    "Launch a Tier 2/3 India-focused bundled product campaign to compete directly with Meesho's 'solutions over products' combo purchase trend before it becomes a sticky behavior across their 150M user base.",
+    "Recruit from Meesho's talent pool \u2014 especially in HR, operations, and analytics \u2014 capitalizing on post-CHRO leadership uncertainty and post-IPO equity lock-up frustrations to accelerate your own team capabilities."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Funding",
+      "data": "PhonePe paused its IPO plans (targeting $10.5B valuation) in March 2026 due to Middle East conflict-driven market volatility. Walmart-backed, still privately held. IPO shelved indefinitely, limiting near-term capital raise but Walmart backing provides deep financial runway."
+    },
+    {
+      "id": "2",
+      "label": "People",
+      "data": "PhonePe appointed Srijon Biswas as Chief Technology Officer in July 2026, signaling a major push in tech infrastructure and product development. Leadership bolstering suggests accelerated platform expansion beyond payments."
+    },
+    {
+      "id": "3",
+      "label": "Product",
+      "data": "PhonePe launched an Android app store in India with zero fees challenging Google Play, expanded UPI payments internationally (first Indian fintech to do so), opened data APIs publicly for free, and introduced a \u20b9100 quarterly fee on dormant wallets. Platform is aggressively expanding beyond UPI into OS-level distribution."
+    },
+    {
+      "id": "4",
+      "label": "Threat",
+      "data": "PhonePe surpassed Google Pay in UPI transactions (2B+ monthly), and Amazon and Meta are now entering India UPI space to challenge PhonePe and Google Pay simultaneously. Competition intensifying from global tech giants while PhonePe expands into Google's app store territory \u2014 creating multi-front warfare. New CTO hire accelerates this."
+    },
+    {
+      "id": "5",
+      "label": "Your Move",
+      "data": "If competing in India fintech or payments infrastructure, act now before PhonePe's app store ecosystem locks in merchant and developer distribution. Target merchants and developers frustrated with Google Play fees as PhonePe's zero-fee store gains traction. Position against PhonePe's dormant wallet fee as a user trust vulnerability."
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "4",
+      "target": "5"
+    }
+  ],
+  "threatLevel": "HIGH",
+  "threatBrief": "PhonePe is rapidly evolving from a payments app into a full-stack digital platform \u2014 surpassing Google Pay in UPI volume, launching a zero-fee Android app store, and expanding UPI internationally. Despite a paused IPO, Walmart backing ensures sustained investment, and a new CTO appointment signals accelerated product velocity. Any fintech, app distribution, or digital payments competitor operating in India faces compounding pressure from PhonePe's platform expansion strategy.",
+  "gtmMoves": [
+    "Target Google Play-dependent developers and merchants in India with a competitive pitch emphasizing PhonePe's zero-fee app store as a distribution threat \u2014 position your platform as a neutral, stable alternative before PhonePe locks in ecosystem loyalty.",
+    "Exploit PhonePe's dormant wallet \u20b9100 quarterly fee announcement as a trust and transparency wedge \u2014 run campaigns highlighting user-friendly fee policies to capture churning PhonePe wallet users.",
+    "Accelerate partnerships with Amazon or Meta (both entering India UPI) to create coalition positioning against PhonePe's UPI dominance, leveraging their distribution scale to counter PhonePe's 2B+ monthly transaction lead."
+  ]
+}
